@@ -45,8 +45,10 @@
   }
   
   .n-list > ul :hover {
-    color: var(--orange);
     cursor: pointer;
+    text-decoration: underline 0.15em;
+    text-underline-offset: 0.2em;
+    transition: text-underline-offset 300ms;
   }
   
   .n-button {

@@ -8,6 +8,18 @@
   .form{
     margin-bottom: -5rem;
   }
+/* 
+  .i-right-s img{
+    -moz-animation: spinHorizontal 20s infinite linear;
+    -o-animation: spinHorizontal 20s infinite linear;    
+    -webkit-animation: spinHorizontal 20s infinite linear;
+    animation: spinHorizontal 20s infinite linear;
+}
+
+@keyframes spinHorizontal {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+} */
   
   /* left side styling */
   .i-lefts {

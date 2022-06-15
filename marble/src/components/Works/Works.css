@@ -104,6 +104,10 @@
   border-radius: 30px;
 }
 
+.i-right img{
+  transform: rotateY(180deg);
+}
+
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;

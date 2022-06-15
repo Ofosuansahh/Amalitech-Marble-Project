@@ -1,6 +1,4 @@
 import React from "react";
-// import Toggle from "../Toggle/Toggle";
-import arrowRight from "../../img/arrowRight.svg";
 import "./Footer.css";
 import { Link } from "react-scroll";
 

@@ -12,19 +12,11 @@ import Problem from "./components/Problem/Problem";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 import FooterSub from "./components/FooterSub/FooterSub";
-// import { useContext } from "react";
-// import { themeContext } from "./Context";
+
 function App() {
-  // const theme = useContext(themeContext);
-  // const darkMode = theme.state.darkMode;
+  
   return (
-    <div
-      className="App"
-      // style={{
-      //   background: darkMode ? "black" : "",
-      //   color: darkMode ? "white" : "",
-      // }}
-    >
+    <div className="App">
       <Navbar />
       <Intro />
       <Works />
