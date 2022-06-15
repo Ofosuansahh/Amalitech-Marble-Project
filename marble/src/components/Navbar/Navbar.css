@@ -1,0 +1,91 @@
+.n-wrapper {
+    padding: 0.5rem 3.5rem;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    top: 0;
+    color: white;
+    margin-top: 25px;
+  }
+  .n-left {
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .n-name {
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+  }
+  .n-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 600;
+    /* position: fixed; */
+  }
+  
+  .n-list {
+    flex: 10;
+    position: relative;
+    margin-left: 8rem;
+  }
+
+  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  
+  .n-list > ul :hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+  
+  .n-button {
+    flex: 2;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+  }
+
+  .s-button {
+    flex: 2;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    background-color: var(--black);
+  }
+
+
+  .n-button img{
+    position: absolute;
+    width: 12px;
+    margin-left: 5px;
+  }
+
+  .n-button img:hover{
+    color: var(--white);
+  }
+
+  .myVideo{
+    position: absolute;
+    min-width: 100px;
+    top: 0;
+    object-fit: cover;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
+  
